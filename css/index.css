@@ -1,0 +1,169 @@
+/*main 部分 start*/
+.main {
+    position: relative;
+}
+.main-slide {
+    float: left;
+    margin-top: 12px;
+    margin-left: 220px;
+    position: relative;
+}
+.main-slide ul {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    margin-left: -66px;
+}
+.main-slide li {
+    float: left;
+}
+.main-slide li a {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: #3E3E3E;
+    text-align: center;
+    border-radius: 9px;
+    margin: 0 2px;
+    color: #fff;
+}
+.main-slide .current {
+    background-color: red;
+}
+.arrow a {
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    width: 28px;
+    height: 62px;
+    font: 400 22px/62px "微软雅黑";
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.arrow-left {
+    left: 0;
+}
+.arrow-right {
+    right: 0;
+}
+.arrow a:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+.main-news-all {
+    float: right;
+}
+.main-news {
+    width: 248px;
+    height: 372px;
+    border: 1px solid #E4E4E4;
+    margin: 12px 0  0 10px;
+    overflow: hidden;
+}
+.main-news-top-jd {
+    width: 248px;
+    height: 32px;
+    border-bottom: 1px dotted #CCCCCC;
+}
+.main-news-top-jd h2 {
+    float: left;
+    padding: 9px 0 0 15px;
+    font: 400 16px "微软雅黑";
+    padding: 9px 0 0 15px;
+}
+.main-news-top-jd a {
+    float: right;
+    padding: 9px 15px 0 0;
+    font-family: "consolas";
+}
+.main-news-top-hot  {
+    padding: 5px 0 0 15px;
+}
+.main-news-top-hot li {
+    height: 24px;
+    font: 400 12px/24px "微软雅黑";
+}
+.main-news-top-hot span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+.main-news-top {
+    width: 248px;
+    height: 163px;
+    border-bottom: 1px dashed #CCCCCC;
+}
+.main-news-money ul {
+    width: 260px;
+}
+.main-news-money li {
+    width: 62px;
+    height: 70px;
+    float: left;
+    /*margin-top: -1px;*/
+    margin-left: -1px;
+    border: 1px solid #CCCCCC;
+    border-top: 0;
+}
+.main-news-money a {
+    position: relative;
+    display: block;
+    width: 62px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 40px;
+}
+.main-news-money i {
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+    background: url(../images/fly.png) no-repeat 0 0;
+}
+.send {
+    background: url(../images/send.png) no-repeat top right;
+}
+.main-news-bottom img {
+    padding: 5px 0 0 10px;
+    position: relative;
+    z-index: 1;
+}
+/*main 部分 end*/
+
+/*super 部分 start*/
+.super-left {
+    margin: 10px 0;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.super .super-right {
+   position: relative;
+   margin: 10px 0;
+   overflow: hidden;
+}
+.super-right ul {
+    width: 450%;
+}
+.super-right li {
+    float: left;
+    margin-right: 1px;
+}
+/*super 部分 end*/
+
+/*subbanner 部分start*/
+.subbanner {
+    width: 100%;
+    position: relative;
+}
+.subbanner a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 613px;
+    background: url(../images/subbanner.jpg) no-repeat top center;
+}
+/*subbanner 部分end*/
